@@ -101,8 +101,8 @@ export function AuthForm({ onLogin, onRegister }: AuthFormProps) {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-md">
+    <div className="min-h-screen flex items-center justify-center bg-slate-50 px-4">
+      <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6 sm:p-8">
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center space-x-3 mb-4">
@@ -110,8 +110,8 @@ export function AuthForm({ onLogin, onRegister }: AuthFormProps) {
               <Video className="h-8 w-8 text-white" />
             </div>
             <div>
-              <h1 className="text-3xl font-bold text-white">SecureConf</h1>
-              <p className="text-blue-200">Video Conference Platform</p>
+              <h1 className="text-2xl sm:text-3xl font-bold text-blue-900">SecureConf</h1>
+              <p className="text-blue-400">Video Conference Platform</p>
             </div>
           </div>
         </div>
